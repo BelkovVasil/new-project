@@ -596,7 +596,7 @@ div.bottom {
 }
 
   .add_card {
-    width: 292px;
+    width: 40%;
     display: flex;
     flex-wrap: wrap;
   }
@@ -604,11 +604,116 @@ div.bottom {
   .social-icons {
     display: flex;
     justify-content: center;
-    width: 697px;
+    width: 697  px;
     height: 84px;
     background-color: #f4f7f6;
     margin-left: auto;
     margin-right: auto;
     margin-top: 63px;
   }
+}
+
+@media (max-width: 640px) {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+  
+  .header-logo {
+    margin-top: 35px;
+    margin-left: 0px;
+    width: 268px;
+  }
+  
+  .welcome-title {
+    text-transform: uppercase;
+    font-family: OpenSans-Bold;
+    color: #ffffff;
+    font-size: 26px;
+    line-height: 75px;
+    margin-top: 195px;
+    margin-bottom: 147px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+
+  .main_style {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: #000000; 
+    width: calc(100% - 2px);
+    margin-bottom: 4px;
+    position: relative;
+    z-index: -1;
+  }
+
+  .main {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-direction: column;
+}
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    padding: 0px;
+    margin-top: 64px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .main-card-img {
+    margin-bottom: 11px;
+  }
+
+  .down_menu {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 64px;
+    flex-direction: row;
+    flex-direction: column;
+}
+
+  .add_card {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 84px;
+    background-color: #f4f7f6;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 63px;
+  }
+}
 }
