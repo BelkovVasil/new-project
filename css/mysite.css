@@ -277,6 +277,8 @@ ul.menu-tag {
   border: solid 4px;
   margin-right: 3px;
   border-color: #eeeeee;
+  padding: 1px;
+  margin: 1px;
 }
 
 a.tags-link {
@@ -289,7 +291,7 @@ a.tags-link {
 .topics-item {
   display: flex;
   font-family: OpenSans-Bold;
-  text-transform: uppercase;
+  text-transform: none;
   font-size: 14px;
   margin: 0 10px 10px 0px;
   border-bottom: solid 1px #eeeeee;
@@ -481,6 +483,8 @@ div.bottom {
   display: flex;
   justify-content: space-around;
   margin-bottom: 64px;
+  padding-left: 120px;
+  padding-right: 120px;
 }
 
 .name_other {
@@ -505,7 +509,8 @@ div.bottom {
 }
 
 .card-content-footer {
-  width: 345px;
+  width: 300px;
+  height: 345px;
   border: 2px solid #b59f5b;
   padding-bottom: 70px;
   padding-left: 23px;
