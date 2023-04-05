@@ -15,6 +15,7 @@
 body {
   margin: 0px;
   padding: 0px;
+  overflow-x: hidden;
 }
 
 .welcome {
@@ -118,6 +119,13 @@ ul.menu-list {
 
 a.link-a {
   text-transform: uppercase;
+  color: #b59f5b;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+a.link-b {
+  text-transform: none;
   color: #b59f5b;
   text-decoration: none;
   margin-right: 10px;
@@ -483,8 +491,8 @@ div.bottom {
   display: flex;
   justify-content: space-around;
   margin-bottom: 64px;
-  padding-left: 120px;
-  padding-right: 120px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 .name_other {
@@ -508,11 +516,15 @@ div.bottom {
   margin: 10px;
 }
 
+.text_down_menu {
+  font-size: 15px;
+  font-weight: bold;
+}
+
 .card-content-footer {
   width: 300px;
-  height: 345px;
+  height: 262px;
   border: 2px solid #b59f5b;
-  padding-bottom: 70px;
   padding-left: 23px;
   padding-right: 23px;
   padding-top: 53px;
@@ -531,10 +543,14 @@ div.bottom {
   justify-content: center;
 }
 
+.price {
+  font-weight: bold;
+}
+
 @media (min-width: 641px) and (max-width: 1200px) {
   .main {
     display: flex;
-    width: 391px;
+    width: auto;
     margin-left: 1px;
     margin-right: auto;
     margin-top: 0px;
@@ -593,15 +609,18 @@ div.bottom {
   }
 
   .down_menu {
+    width: auto;
     display: flex;
     justify-content: flex-start;
     margin-bottom: 64px;
     flex-direction: row;
     flex-wrap: wrap;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
   .add_card {
-    width: 40%;
+    width: 55%;
     display: flex;
     flex-wrap: wrap;
   }
@@ -609,20 +628,81 @@ div.bottom {
   .social-icons {
     display: flex;
     justify-content: center;
-    width: 697  px;
+    width: auto;
     height: 84px;
     background-color: #f4f7f6;
     margin-left: auto;
     margin-right: auto;
     margin-top: 63px;
   }
+
+  .two_items {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .one_items {
+    display: flex;
+    margin-left: 40px;
+    margin-top: 30px;
+  }
 }
 
 @media (max-width: 640px) {
+
+  .news {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 40px;
+} 
+
+.right-card-content {
+  display: block;
+  width: auto;
+}
+
+.new-news {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0px;
+  width: auto;
+  margin-left: 57px;
+  margin-right: 70px;
+  align-items: center;
+}
+
+ul.topics {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: -200px;
+}
+
+ul.menu-tag {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  padding: 0;
+}
+
+  .down_menu {
+    width: auto;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 64px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
   .container {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 350px;
     flex-direction: column-reverse;
     align-items: center;
     margin-left: auto;
@@ -705,9 +785,9 @@ div.bottom {
 }
 
   .add_card {
-    width: 40%;
     display: flex;
     flex-wrap: wrap;
+    margin: 22px 0px 22px 0px;
   }
 
   .social-icons {
