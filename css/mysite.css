@@ -491,8 +491,8 @@ div.bottom {
   display: flex;
   justify-content: space-around;
   margin-bottom: 64px;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
 .name_other {
@@ -615,15 +615,16 @@ div.bottom {
     margin-bottom: 64px;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-left: 0px;
-    padding-right: 0px;
+    margin-left: 20px;
+    margin-right: -200px;
 }
 
-  .add_card {
-    width: 55%;
-    display: flex;
-    flex-wrap: wrap;
-  }
+.add_card {
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 22px;
+}
 
   .social-icons {
     display: flex;
