@@ -491,8 +491,12 @@ div.bottom {
   display: flex;
   justify-content: space-around;
   margin-bottom: 64px;
-  padding-left: 1%;
-  padding-right: 1%;
+  margin-left: 0px;
+  margin-right: 0px;
+  justify-content: space-between;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .name_other {
@@ -541,6 +545,7 @@ div.bottom {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  width: 30%;
 }
 
 .price {
@@ -789,6 +794,7 @@ ul.menu-tag {
     display: flex;
     flex-wrap: wrap;
     margin: 22px 0px 22px 0px;
+    width: 100%;
   }
 
   .social-icons {
